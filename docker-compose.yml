@@ -1,0 +1,13 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    expose:
+      - 5433
+    ports:
+      - 5433:5433
+    restart: always
+    environment:
+      POSTGRES_DB: bookmark
+      POSTGRES_USER: hossam
+      POSTGRES_PASSWORD: 123
