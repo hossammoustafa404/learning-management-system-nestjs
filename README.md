@@ -1,4 +1,5 @@
-## Not finished yet.
+## Impotant Note
+The project is not finished yet.
 
 ## Installation
 
